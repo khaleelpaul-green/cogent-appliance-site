@@ -1,14 +1,8 @@
 import React from "react";
-import image3 from "../components/assets/imgs/IMG_0751.JPEG"
-import image7 from "../components/assets/imgs/IMG_7329.jpg"
-import image1 from "../components/assets/imgs/753FCEFB-0374-4098-9D6C-E01EC6514AAB.JPG"
-import image2 from "../components/assets/imgs/D5461790-9515-4756-A472-481DB2C61630.JPG"
-import image4 from "../components/assets/imgs/IMG_7018.jpg"
-import image5 from "../components/assets/imgs/IMG_7078.jpg"
-import image6 from "../components/assets/imgs/IMG_7175.jpg"
-import image8 from "../components/assets/imgs/IMG_7782.jpg"
+import image1 from "../components/assets/imgs/IMG_7329.jpg"
+import image2 from "../components/assets/imgs/IMG_7018.jpg"
+import image3 from "../components/assets/imgs/IMG_7078.jpg"
 import acInstall from "../components/assets/imgs/air-conditioner-install.jpeg"
-import acInstall2 from "../components/assets/imgs/air-conditioner-installation.jpeg"
 import furnaceMaintainence from "../components/assets/imgs/furnace-maintainence.jpeg"
 import naturalGasFirePit from "../components/assets/imgs/natural-gas-fire-pit-installation.jpeg"
 import gasMeterPipingRepair from "../components/assets/imgs/repairing-gas-meter-piping.jpeg"
@@ -58,19 +52,19 @@ const Gallery = () => {
                 <div class="w3-col l3 m6 w3-margin-bottom">
                     <div class="w3-display-container">
                         <div class="w3-display-topleft w3-black w3-padding">Tankless Water Heater Installation</div>
-                        <img src={image5} alt="Tankless Water Heater Installation" style={{width:"100%"}}/>
+                        <img src={image3} alt="Tankless Water Heater Installation" style={{width:"100%"}}/>
                     </div>
                 </div>
                 <div class="w3-col l3 m6 w3-margin-bottom">
                     <div class="w3-display-container">
                         <div class="w3-display-topleft w3-black w3-padding">Gas Stove Installation</div>
-                        <img src={image7} alt="Gas Stove Installation" style={{width:"100%"}}/>
+                        <img src={image1} alt="Gas Stove Installation" style={{width:"100%"}}/>
                     </div>
                 </div>
                 <div class="w3-col l3 m6 w3-margin-bottom">
                     <div class="w3-display-container">
                         <div class="w3-display-topleft w3-black w3-padding">Furnace Maintainence</div>
-                        <img src={image4} alt="Furnace Maintainence" style={{width:"100%"}}/>
+                        <img src={image2} alt="Furnace Maintainence" style={{width:"100%"}}/>
                     </div>
                 </div>
             </div>

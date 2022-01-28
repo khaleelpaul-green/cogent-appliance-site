@@ -2,8 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import homeImg1 from "../components/assets/imgs/cogent-homepage.jpeg"
 import homeImg from "../components/assets/imgs/cogent-homepage (2).jpeg"
-import homeImg2 from "../components/assets/imgs/cogent-homepage (1).jpeg"
-import homeImg3 from "../components/assets/imgs/homepage.jpg"
 
 const Home = () => {
     return(
