@@ -23,10 +23,10 @@ const Contact = () => {
                 <p class="w3-center w3-large">Lets get in touch. Send me a message:</p>
                 <div class="w3-xlarge" style={{marginTop:"48px"}}>
                     <p style={{textAlign:"center"}}><i class="fa fa-map-marker w3-xxlarge" style={{color:"#f44336"}}></i> Markham, ON</p>
-                    <p style={{textAlign:"center"}}><i class="fa fa-phone fa-fw w3-xxlarge" style={{color:"#f44336"}}></i> Phone: <br/> 416-871-3124</p>
+                    <p style={{textAlign:"center"}}><i class="fa fa-phone fa-fw w3-xxlarge" style={{color:"#f44336"}}></i> Phone: <br/> <a class="w3-button" href="tel:4168713124">416-871-3124</a></p>
                     <p style={{textAlign:"center", marginBottom:"2px"}}><i class="fa fa-envelope fa-fw" style={{color:"#f44336", fontSize:"32px"}}> </i> Email:</p>
-                    <div class="emailAddress">
-                        <p>cogentappliances@gmail.com</p>
+                    <div style={{fontSize:"20px", position:"relative", left:"-10px", minWidth:"200px"}}>
+                        <p class="emailAddress" style={{position:"relative", left:"-15px", top:"-15px"}}><a class="w3-button" href="mailto:cogentappliances@gmail.com">cogentappliances@gmail.com</a></p>
                     </div>
                     <br/>
                 </div>
