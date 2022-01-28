@@ -20,6 +20,11 @@ const Header = () => {
         mySidebar.style.display = "none";
     }   
 
+    // redirect to homepage
+    function goHome() {
+        window.location.replace("/")
+    }
+
     return (
         <div>
             <NavBar/>
@@ -30,16 +35,16 @@ const Header = () => {
             </div>
 
             {/* header on small screens */}
-            <div class="w3-bar w3-red w3-hide-medium w3-hide-large" style={{height:"7rem"}}>
-                <a href="#" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onClick={openMenu}>
-                <img class="w3-bar-item w3-button" style={{paddingRight:"5px", width:"50%", position:"relative", top:"-11px"}} src={logo2} alt="Cogent Appliances Logo"/>
-                    <i class="fa fa-bars w3-right w3-xxlarge" style={{width:"50px", position:"relative", top:"27px"}}></i>
-                </a>
+            <div class="w3-bar w3-red w3-hide-medium w3-hide-large" style={{height:"7rem", minWidth:"100%"}}>
+                <button class="w3-right w3-bar-item w3-button w3-hide-large w3-hide-medium" onClick={openMenu}>
+                    <img class="w3-left w3-button" style={{minWidth:"200px", width:"50%", position:"absolute", top:"-3px", left:"5px"}} src={logo2} alt="Cogent Appliances Logo" onClick={goHome}/>
+                    <i class="fa fa-bars w3-right w3-xxlarge" style={{width:"50px", position:"absolute", top:"32px", right:"15px"}}></i>
+                </button>
             </div>
 
                 {/* sidebar menu on small screens */}
                 <nav class="w3-sidebar w3-bar-block customBlue w3-card w3-animate-left w3-hide-medium w3-hide-large" style={{display:"none"}} id="mySidebar">
-                    <a href="#" onClick={closeMenu} class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+                    <button onClick={closeMenu} class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</button>
                     <Link to="/" onClick={closeMenu} class="w3-bar-item w3-button">HOME</Link>
                     <Link to="/about" onClick={closeMenu} class="w3-bar-item w3-button">ABOUT</Link>
                     <Link to="/gallery" onClick={closeMenu} class="w3-bar-item w3-button">GALLERY</Link>
