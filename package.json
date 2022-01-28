@@ -4,7 +4,6 @@
   "description": "",
   "main": "server/server.js",
   "scripts": {
-    "start": "node server/server.js",
     "develop": "cd client && npm start",
     "install": "cd client && npm i",
     "build": "cd client && npm run build"
