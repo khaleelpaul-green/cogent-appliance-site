@@ -3,29 +3,30 @@ import NavBar from "../NavBar/NavBar";
 import logo2 from "../assets/imgs/cogent-logo-2.png"
 import { Link } from "react-router-dom";
 
-const Header = () => {
-    let mySidebar = document.getElementById("mySidebar");
+class Header extends React.Component {
+    state = {};
 
     // open side bar function
-    function openMenu() {
-        if (mySidebar.style.display === 'block') {
-        mySidebar.style.display = 'none';
+    openMenu = () => {
+        if (document.getElementById("mySidebar").style.display === 'block') {
+            document.getElementById("mySidebar").style.display = 'none';
         console.log('visible')
         } else {
-        mySidebar.style.display = 'block';
+        document.getElementById("mySidebar").style.display = 'block';
     }
 }
 
     // close sidebar function
-    function closeMenu() {
-        mySidebar.style.display = "none";
+    closeMenu = () => {
+        document.getElementById("mySidebar").style.display = "none";
     }   
 
     // redirect to homepage
-    function goHome() {
+    goHome = () => {
         window.location.replace("/")
     }
 
+    render(){
     return (
         <div>
             <NavBar/>
@@ -37,17 +38,17 @@ const Header = () => {
 
             {/* sidebar menu on small screens */}
             <nav class="w3-sidebar w3-bar-block customBlue w3-card w3-animate-left w3-hide-medium w3-hide-large" style={{display:"none"}} id="mySidebar">
-            <button onClick={closeMenu} class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</button>
-                <Link to="/" onClick={closeMenu} class="w3-bar-item w3-button">HOME</Link>
-                <Link to="/about" onClick={closeMenu} class="w3-bar-item w3-button">ABOUT</Link>
-                <Link to="/gallery" onClick={closeMenu} class="w3-bar-item w3-button">GALLERY</Link>
-                <Link to="/contact" onClick={closeMenu} class="w3-bar-item w3-button">CONTACT</Link>
+            <button onClick={this.closeMenu} class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</button>
+                <Link to="/" onClick={this.closeMenu} class="w3-bar-item w3-button">HOME</Link>
+                <Link to="/about" onClick={this.closeMenu} class="w3-bar-item w3-button">ABOUT</Link>
+                <Link to="/gallery" onClick={this.closeMenu} class="w3-bar-item w3-button">GALLERY</Link>
+                <Link to="/contact" onClick={this.closeMenu} class="w3-bar-item w3-button">CONTACT</Link>
             </nav>
 
             {/* header on small screens */}
             <div class="w3-bar w3-button w3-red w3-hide-medium w3-hide-large" style={{height:"7rem", minWidth:"100%"}}>
-                <button class="w3-bar-item w3-right w3-button w3-hide-large w3-hide-medium" onClick={openMenu}>
-                    <img class="w3-left w3-button" style={{minWidth:"200px", width:"50%", position:"absolute", top:"-3px", left:"5px"}} src={logo2} alt="Cogent Appliances Logo" onClick={goHome}/>
+                <button class="w3-bar-item w3-right w3-button w3-hide-large w3-hide-medium" onClick={this.openMenu}>
+                    <img class="w3-left w3-button" style={{minWidth:"200px", width:"50%", position:"absolute", top:"-3px", left:"5px"}} src={logo2} alt="Cogent Appliances Logo" onClick={this.goHome}/>
                     <p><i class="fa fa-bars w3-right w3-xxlarge" style={{width:"50px", position:"absolute", top:"32px", right:"15px"}}></i></p>
                 </button>
             </div>
@@ -76,6 +77,7 @@ const Header = () => {
             </div>
         </div>
     )
+}
 }
 
 export default Header
