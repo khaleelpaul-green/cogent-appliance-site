@@ -330,6 +330,10 @@ span {
   min-height: 100%;
 }
 
+.contactInfo:hover{
+  color: #f44336!important;
+}
+
 @media screen and (max-width: 375px) {
     p.emailAddress {
       position: relative!important;

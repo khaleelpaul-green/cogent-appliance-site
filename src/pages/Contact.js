@@ -9,8 +9,8 @@ const Contact = () => {
                 <p class="w3-center w3-large">Lets get in touch. Send me a message:</p>
                 <div class="w3-center w3-xlarge" style={{marginTop:"48px"}}>
                     <p><i class="fa fa-map-marker w3-xxxlarge" style={{color:"#f44336"}}></i> Markham, ON</p>
-                    <p><i class="fa fa-phone fa-fw w3-xxxlarge" style={{color:"#f44336"}}></i> Phone: 416-871-3124</p>
-                    <p><i class="fa fa-envelope fa-fw w3-xxxlarge" style={{color:"#f44336"}}> </i> Email: <span >cogentappliances@gmail.com</span></p>
+                    <p><i class="fa fa-phone fa-fw w3-xxxlarge" style={{color:"#f44336"}}></i> Phone: <a class="w3-button contactInfo" href="tel:4168713124">416-871-3124</a></p>
+                    <p><i class="fa fa-envelope fa-fw w3-xxxlarge" style={{color:"#f44336"}}> </i> Email: <a class="w3-button contactInfo" href="mailto:cogentappliances@gmail.com">cogentappliances@gmail.com</a></p>
                     <br/>
                 </div>
                 </div>

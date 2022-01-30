@@ -32,7 +32,7 @@ class Header extends React.Component {
             <NavBar/>
             <div class="w3-container myPadding w3-hide-small" style={{paddingBottom:"20px", paddingTop:"20px"}}>
                 <div class="w3-bar w3-white w3-hide-small">
-                    <h1 class="w3-bar-item w3-button w3-wide w3-xxxlarge w3-center" style={{color:"#2196F3",position:"sticky", left:"165px"}}><b>Cogent Gas & Appliance Services Inc.</b> <br/><span class="w3-center-align" style={{fontSize:"30px"}}><b>Adding Value While Serving Customers.</b></span></h1>
+                    <h1 class="w3-bar-item w3-wide w3-xxxlarge w3-center" style={{color:"#2196F3",position:"sticky", left:"165px"}}><b>Cogent Gas & Appliance Services Inc.</b> <br/><span class="w3-center-align" style={{fontSize:"30px"}}><b>Adding Value While Serving Customers.</b></span></h1>
                 </div>
             </div>
 
