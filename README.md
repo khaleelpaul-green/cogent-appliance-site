@@ -58,6 +58,6 @@ Please feel free to contact me with comments or further questions via email, whi
 
 # Screenshots
 
-![Screenshot](./assets/homepage.png)
+![Screenshot](./assets/homepage.PNG)
 
 [Back to Top](#cogent-gas-and-appliance-services-inc)
