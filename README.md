@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Cogent Gas and Appliance Services Inc
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+A commissioned project to create a single paged portfolio site (using React.js) for Cogent Gas & Appliance Services Inc. The website features several different pages that are dynamically displayed by changing the URL endpoint upon request.
 
-In the project directory, you can run:
+# Table of Contents
 
-### `npm start`
+- [Description](#description)
+- [Table of Contents](#table-of-contents)
+- [Installation](#installation)
+- [Dependencies](#dependencies)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Licenses](#licenses)
+- [Tests](#tests)
+- [Technologies Used](#technologies-used)
+- [Questions](#questions)
+- [Screenshot](#screenshots)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This app does not require an installation, and can be accessed via a web browswer [here](https://cogentgas.herokuapp.com/).
 
-### `npm test`
+However, if you would like to have this app forked, do `npm install` at the root directory and then run `npm start`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Dependencies
 
-### `npm run build`
+This application requires react.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Users can navigate the site to learn more of the company's projects, contact information, and values [here](https://cogentgas.herokuapp.com/).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Contributing
 
-### `npm run eject`
+1. [Khaleel](https://github.com/khaleelpaul-green)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Licenses
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![License Badge](https://img.shields.io/badge/mit-license-blue)
+Click [here](https://choosealicense.com/licenses/mit) for MIT license information
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Tests
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+N/A
 
-## Learn More
+# Technologies Used
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This application uses the following technologies: React, Bootstrap css, Node, Heroku.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Questions
 
-### Code Splitting
+Github: [This Repo](https://github.com/khaleelpaul-green/cogent-appliance-site)
+Email: [khaleelpaulgreen.code@gmail.com](mailto:khaleelpaulgreen.code@gmail.com).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Please feel free to contact me with comments or further questions via email, which is my prefered method.
 
-### Analyzing the Bundle Size
+# Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Screenshot](./assets/homepage.png)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Back to Top](#cogent-gas-and-appliance-services-inc)
